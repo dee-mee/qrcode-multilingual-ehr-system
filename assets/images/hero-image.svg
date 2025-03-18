@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="800" height="600" viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+    <!-- Background -->
+    <rect x="0" y="0" width="800" height="600" fill="#ffffff"/>
+    
+    <!-- Medical Cross -->
+    <g transform="translate(350, 250)">
+        <rect x="-20" y="-60" width="40" height="120" fill="#e74c3c" rx="5"/>
+        <rect x="-60" y="-20" width="120" height="40" fill="#e74c3c" rx="5"/>
+    </g>
+    
+    <!-- QR Code representation -->
+    <g transform="translate(200, 200)">
+        <rect x="0" y="0" width="120" height="120" fill="#2c3e50"/>
+        <rect x="20" y="20" width="80" height="80" fill="#ffffff"/>
+        <rect x="40" y="40" width="40" height="40" fill="#2c3e50"/>
+    </g>
+    
+    <!-- Medical Record representation -->
+    <g transform="translate(500, 200)">
+        <rect x="0" y="0" width="100" height="140" fill="#3498db" rx="5"/>
+        <rect x="10" y="10" width="80" height="10" fill="#ffffff"/>
+        <rect x="10" y="30" width="80" height="10" fill="#ffffff"/>
+        <rect x="10" y="50" width="80" height="10" fill="#ffffff"/>
+    </g>
+    
+    <!-- Connecting lines -->
+    <g stroke="#95a5a6" stroke-width="4">
+        <line x1="320" y1="260" x2="500" y2="260"/>
+        <line x1="350" y1="260" x2="350" y2="400"/>
+    </g>
+    
+    <!-- Circles for decoration -->
+    <circle cx="150" cy="150" r="20" fill="#2ecc71"/>
+    <circle cx="650" cy="450" r="30" fill="#f1c40f"/>
+    <circle cx="200" cy="400" r="15" fill="#9b59b6"/>
+</svg> 

@@ -1,0 +1,9 @@
+{
+    "name": "ehr-system/ehr-system",
+    "description": "Electronic Health Record System with QR Code Support",
+    "type": "project",
+    "require": {
+        "php": ">=7.4",
+        "endroid/qr-code": "^4.8"
+    }
+} 
